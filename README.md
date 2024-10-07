@@ -27,7 +27,7 @@ pip install dnspython
 To run the script, use the following command:
 
 ```
-python dnsbl_checker.py <target> [options]
+python dnsbl_check.py <target> [options]
 ```
 
 ### Parameters:
@@ -37,7 +37,7 @@ python dnsbl_checker.py <target> [options]
 ### Example:
 
 ```
-python dnsbl_checker.py example.com
+python dnsbl_check.py example.com
 ```
 
 This command will:
@@ -48,7 +48,7 @@ This command will:
 To check an IP address directly:
 
 ```
-python dnsbl_checker.py 192.0.2.1
+python dnsbl_check.py 192.0.2.1
 ```
 
 ### Verbose Output:
@@ -56,7 +56,7 @@ python dnsbl_checker.py 192.0.2.1
 To see more detailed logs, use the `-v` option:
 
 ```
-python dnsbl_checker.py example.com -v
+python dnsbl_check.py example.com -v
 ```
 
 ## Logging
